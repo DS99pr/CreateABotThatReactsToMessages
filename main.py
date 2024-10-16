@@ -22,4 +22,4 @@ async def on_message(message): # we use the asynchronous function "on_message" w
       if message.content == "?ping": # "message.content" refers to the content of the message, (text) checking if the message is equal to "?ping"
          await message.channel.send("Pong!") # the "message.channel.send" command allows you to send a message to a channel, "message.channel" refers to the instance of the channel on which the user sent the message
 
-@bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
+bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
